@@ -1,0 +1,27 @@
+.cardWrapper {
+    padding: 15px 25px;
+    background-color: rgb(205, 239, 245);
+    width: 225px;
+    max-height: 350px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.imgWrapper{
+    min-height: 220px;
+    display: flex;
+    justify-content: center;
+}
+
+.imgWrapper img {
+    margin: 15px 25px;
+    max-height: 190px;
+}
+
+.name{
+    font-weight: bold;
+    min-height: 35px;
+}
+
+
+

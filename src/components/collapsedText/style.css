@@ -1,0 +1,23 @@
+.description{  
+    height: 45px;
+    margin-bottom: 25px;
+}
+
+.collapsed{
+    height: 65px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.collapseBtn {
+    border: none;
+    font-size: larger;
+    background-color: white;
+    color: rgb(170, 170, 170);
+}
+
+.extended {
+    height: fit-content;
+    margin-bottom: 25px;
+}
+

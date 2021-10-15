@@ -1,0 +1,1 @@
+export const SET_BEER_TO_STORE = 'SET_BEER_TO_STORE'

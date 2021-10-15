@@ -1,0 +1,65 @@
+.top {
+    background-color: rgb(55, 55, 82);
+    color: white; 
+}
+
+.top-boards{
+
+    padding: 25px;
+    box-sizing: border-box;
+    height: 90px;
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+    display: flex;
+}
+
+.grow {flex-grow: 1;}
+
+.btn {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgb(55, 55, 82);
+    color: white;
+    font-size: 19px;
+    height: 90px;
+    padding: 0 25px;
+}
+
+.btn:hover {
+    background-color: rgb(78, 78, 116);
+}
+
+.pickedBtn {
+    border-bottom: 5px ridge rgb(66, 204, 238);
+}
+
+#filter {
+    margin-right: 45px;
+    position: relative;
+}
+
+select {
+    background-color: rgb(208, 208, 251);
+    margin:0px 15px;
+    height: 35px;
+    font-size: x-large;
+}
+
+.beerWrapper {
+    overflow-y: scroll;
+    margin: 0 auto;
+    max-width: 1200px;
+    max-height: calc(100vh - 90px);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-start;
+    padding: 15px;
+}
+
+.pagination  {
+    display: flex;
+    justify-content: center;
+}

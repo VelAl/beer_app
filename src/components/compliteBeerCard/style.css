@@ -1,0 +1,62 @@
+.overlay {
+    background-color: rgba(113, 130, 149, 0.9);;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    z-index: 1;
+    padding: 20px;
+    background-color: white;
+    width: 400px;
+    min-height: 600px;
+}
+
+.nam {
+    display: flex;
+    border-bottom: 2px solid #000;
+}
+
+.nam> div {
+    flex-grow: 1;
+    padding-bottom: 5px;
+    font-weight: bolder;
+}
+.nam>button {
+    width: 25px;
+    height: 25px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.imageDiv {
+    padding-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.imageDiv>img{
+    height: 350px;
+}
+
+.foodpairing {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.ABV {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 90px;
+}
+
